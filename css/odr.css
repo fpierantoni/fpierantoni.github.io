@@ -1,0 +1,343 @@
+body {
+    background-color: #222222;
+}
+
+::selection {
+  background: #ffb7b7; /* WebKit/Blink Browsers */
+}
+
+.section {
+    margin-bottom: 3.5rem;
+}
+
+.margin-right-small {
+	margin-right: 0.5rem;
+}
+
+.margin-small {
+	margin-bottom: 1rem;
+}
+
+.margin-medium {
+	margin-bottom: 1.5rem;
+}
+
+.margin-large {
+	margin-bottom: 2rem;
+}
+
+.margin-xxx-large {
+	margin-bottom: 6rem;
+	}
+
+.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.button-wrapper {
+	text-align: center;
+}
+
+.button {
+	color: white;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 1rem;
+	line-height: 1.25rem;
+	background: #FF2600;
+	box-shadow: 0rem 0.125rem 0rem 0rem rgba(204,0,0,0.50);
+	border-radius: 0.25rem;
+}
+
+.hero-image {
+	background-color: #220500;
+	background-image: url('../img/hero_image.png'), linear-gradient(115deg, #640D00 0%, #220500 58%);
+	background-repeat: no-repeat;
+    background-size: cover;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    border-bottom: #FF2600 1px solid;
+}
+
+.chapter-icon {
+	height: 2.75rem;
+	width: auto;
+}
+
+.book-preview {
+	font-family: 'Andada', serif;
+}
+
+.book-center {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	
+}
+
+h1 {
+	color: #FF2600;
+	font-family: 'Lato', sans-serif;
+	font-size: 2rem;
+	line-height: 2.5rem;
+	font-weight: 900;
+	letter-spacing: -0.2px;
+	margin-bottom: 1rem;
+}
+
+h2 {
+	color: #FF2600;
+	font-family: 'Andada', serif;
+	font-weight: 600;
+	font-size: 1.25rem;
+	letter-spacing: 0.05rem;
+}
+
+h3 {
+	color: white;
+	font-family: 'Andada', serif;
+	font-size: 1rem;
+}
+
+h4 {
+	color: #CCCCCC;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.125rem;
+	line-height: 1.5rem;
+	font-style: italic;
+}
+
+p {
+	color: white;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.125rem;
+	line-height: 2rem;
+}
+
+a {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+}
+
+.link {
+	color: #FF2600;
+}
+
+.division {
+	border-top: white 1px solid;
+	height: 1rem;
+}
+
+.division-book {
+	border-bottom: gray 1px solid;
+	height: 1.5rem;
+	margin-bottom: 2.5rem;
+}
+
+.quote {
+	color: #FF2600;
+	font-style: italic;
+}
+
+strong {
+	font-weight: 900;
+}
+
+.author-img {
+	width: 100%;
+	max-width: 25rem;
+}
+
+.dark-container {
+	background-color: #000000;
+	border-top: #FF2600 1px solid;
+	border-bottom: #FF2600 1px solid;
+	padding-top: 3.5rem;
+	padding-bottom: 3.5rem;
+}
+
+.price-tag {
+	font-size: 1.25rem;
+}
+
+.footer {
+	border-bottom: 0px;
+}
+
+.social-icon {
+	height: 1rem;
+	width: auto;
+}
+
+.social-button {
+	display: inline-block;
+}
+
+.padding-top-page {
+	padding-top: 5rem;
+
+}
+
+.padding-left-small {
+		padding-left: 0.5rem;
+	}
+
+.small.button {
+	font-size: 0.85rem;
+	line-height: 1rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.facebook-button {
+	background-color: #3b5998;
+	box-shadow: 0rem 0.125rem 0rem 0rem rgba(40,60,100,0.50);
+}
+
+.facebook-button:hover, .facebook-button:focus {
+	background-color: #2d4373;
+}
+
+.twitter-button {
+	background-color: #00aced;
+	box-shadow: 0rem 0.125rem 0rem 0rem rgba(0,132,180,0.50);
+}
+
+.twitter-button:hover, .twitter-button:focus {
+	background-color: #0084b4;
+}
+
+.header {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	background-color: #1C1C1C;
+	position: fixed;
+	width: 100%;
+	border-bottom: 1px solid #2D2D2D;
+	box-shadow: 0px 2px 4px 0px rgba(17,17,17,0.25);
+}
+
+.header-logo {
+	height: 1.5rem;
+	width: auto;
+}
+
+.carousel-cell {
+	height: 100%
+}
+
+.flickity-page-dots .dot {
+	background: #EEEEEE;
+}
+
+.flickity-page-dots .dot.is-selected {
+	background: #CCCCCC;
+}
+
+.main-gallery {
+  height: 15rem;
+}
+
+
+
+
+/* Medium and up */
+@media screen and (min-width: 40em) {
+
+	.section {
+	    margin-bottom: 5rem;
+	}
+
+	.dark-container {
+		padding-top: 5rem;
+		padding-bottom: 5rem;
+	}
+
+	h1 {
+		font-size: 2.5rem;
+		line-height: 3rem;
+		letter-spacing: -0.2px;
+	}
+
+	h3 {
+		font-size: 1.25rem;
+	}
+
+	.price-tag {
+		font-size: 1.5rem;
+	}
+
+	.vertical-center {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	}
+
+	.margin-x-large-desktop {
+	margin-bottom: 3rem;
+	}
+
+	.book-preview {
+		font-size: 1.25rem;
+		line-height: 2.5rem;
+	}
+
+	.round-ink-spot {
+		padding-bottom: 2.5rem;
+	}
+
+	.main-gallery {
+		height: 25rem;
+	}
+
+	.carousel-cell {
+		border-right: #222222 solid 1px;
+		border-left: #222222 solid 1px
+	}
+
+}
+
+
+/* Large and up */
+@media screen and (min-width: 64em) {
+
+	.main-gallery {
+	  height: 30rem;
+	}
+
+}
+
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+
+	.e-mail {
+		font-size: 1.5rem;
+	}
+
+
+	.hero-image {
+	    background-position: center;
+	}
+
+	.carousel-cell {
+		border-left: 1px solid #222222;
+		border-right: 1px solid #222222;
+	}
+
+	.flickity-prev-next-button {
+		display: none;
+	}
+
+}
+
+
+
+
+
+
+
