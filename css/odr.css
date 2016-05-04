@@ -231,7 +231,7 @@ strong {
 }
 
 .carousel-cell {
-	height: 100%
+	height: 100%;
 }
 
 .flickity-page-dots .dot {
@@ -311,6 +311,10 @@ strong {
 
 	.main-gallery {
 	  height: 30rem;
+	}
+
+	.hero-image {
+		background-attachment: fixed;
 	}
 
 }
