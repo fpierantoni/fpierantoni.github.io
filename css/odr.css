@@ -183,7 +183,10 @@ strong {
 
 .padding-top-page {
 	padding-top: 5rem;
+}
 
+.padding-top-page-large {
+	padding-top: 10rem;
 }
 
 .padding-left-small {
