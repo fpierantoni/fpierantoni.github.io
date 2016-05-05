@@ -157,7 +157,14 @@
         <div class="small-12 medium-6 columns">
           <div class="small-12 small-centered medium-10 large-7">
             <h1 class="text-center margin-small"><span class="price-tag">R$ </span>48</h1>
-            <a class="button margin-medium centered" href="">COMPRAR COM PAYPAL</a>
+            <!--<a class="button margin-medium centered" href="">COMPRAR COM PAYPAL</a>-->
+            <!--BOTÃO PAYPAL-->
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+              <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="hosted_button_id" value="PRDAXTHTYHWHC">
+              <input class="button button-full centered" type="submit" value="COMPRAR COM PAYPAL" name="submit" title="PayPal - The safer, easier way to pay online!" class="paypalbutton">
+            </form>
+            <!--FIM DO BOTÃO PAYPAL-->
             <h4 class="text-center">Autografado, com frete grátis e rastreamento ;)</h4>
           </div>          
         </div>         
